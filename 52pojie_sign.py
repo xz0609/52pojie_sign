@@ -22,4 +22,3 @@ if sckey:
     send_url = f'http://ip.ykvalve.com:18080/wecomchan?sendkey={sckey}&&msg={msg}&&msg_type=text'
     requests.get(send_url)
 
-
