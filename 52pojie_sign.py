@@ -19,7 +19,7 @@ print(msg)
 if not cookie:
     print('cookie为空')
 if sckey:
-    send_url = f'https://sc.ftqq.com/{sckey}.send?text={msg}'
+    send_url = f'http://ip.ykvalve.com:18080/wecomchan?msg_type=text&&sendkey={sckey}&&msg={msg}'
     requests.get(send_url)
 
 
